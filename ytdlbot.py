@@ -4,7 +4,7 @@ from pyupload.uploader import *
 import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, ConversationHandler, CallbackQueryHandler
 
-token = 'bot_token'
+token = '1053880058:AAHUptv0HEEygzRQ1WOIDc_3Bx2ROKVKGyU'
 path = r"C:\Users\Administrator\Desktop\dwld"
 bot = telegram.Bot(token)
 updater = Updater(token,  request_kwargs={'read_timeout': 1000, 'connect_timeout': 1000},use_context=True)
